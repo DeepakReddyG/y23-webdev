@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  column-gap: 20px;
+}
+.box {
+    width: 20%;
+}
+
+
+.box-one img {
+    width: 100%;
+}
+
+.box-two {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 1rem;
+}
+.box-two h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.box-two p {
+    font-size: 1rem;
+    color: blue;
+    margin-bottom: 1rem;
+}
+.box-two a {
+    text-decoration: none;
+    color: black;
+}
